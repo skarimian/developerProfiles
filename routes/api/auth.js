@@ -22,7 +22,7 @@ router.post(
   (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      res.status(400).json({ errors: errors });
+      res.status(400).json({ errors: errors.array() });
     }
     res.send("Auth route");
   }
