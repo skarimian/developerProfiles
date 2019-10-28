@@ -1,6 +1,6 @@
 {
     "mongoURI":"mongodb://localhost/devdb",
-    "jwtToken":"DanielSecret"
+    "jwtToken":"Daniel76Secret"
 }
 
 
