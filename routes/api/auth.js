@@ -7,7 +7,7 @@ const router = express.Router();
 // @desc User routes
 // @access Public
 
-router.get(
+router.post(
   "/",
   [
     check("name", "Please enter a name")
